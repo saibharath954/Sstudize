@@ -20,7 +20,7 @@ const font=Rethink_Sans({
 
 export const metadata: Metadata = {
   title: "Sstudize",
-  description: "Sstudize website for students using next js 15",
+  description: "Sstudize website for students",
 };
 
 export default function RootLayout({
@@ -35,7 +35,7 @@ export default function RootLayout({
       >
         <div className='flex flex-col h-screen'>
           <ResponsiveNav />
-          <main className='flex-1 p-4'>
+          <main className='anitialised flex-1 p-4'>
             {children}
           </main>
           <footer className='bg-gray-800 text-white p-4 text-2xl'>
