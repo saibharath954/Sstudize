@@ -1,10 +1,13 @@
 import React from 'react'
-import Hero from "./Hero/Hero";
+import HeroSection from "./Hero/Hero";
+import About from "./About/About";
+
 const Home = () => {
   return (
     <div className='overflow-hidden'>
-      <div className='h-[100vh] flex items-center justify-center'>
-        <Hero />
+      <div>
+        <HeroSection />
+        <About />
       </div>
     </div>
   )

@@ -13,8 +13,8 @@ const Nav = ({openNav}:NavProps) => {
   const [navbg, setNavbg] = useState(false);
   useEffect(() => {
     const handler = () => {
-        if(window.scrollY >= 30) setNavbg(true);
-        if(window.scrollY < 30) setNavbg(false);
+        if(window.scrollY >= 10) setNavbg(true);
+        if(window.scrollY < 10) setNavbg(false);
     };
     window.addEventListener('scroll', handler);
     return () => window.removeEventListener('scroll', handler);
