@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Rethink_Sans } from "next/font/google";
 import "./globals.css";
+import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 
 const font=Rethink_Sans({
   weight:['400','500','600','700','800'],
@@ -33,9 +34,7 @@ export default function RootLayout({
         className={`${font.className} antialiased`}
       >
         <div className='flex flex-col h-screen'>
-          <header className='bg-gray-800 text-white p-4 text-2xl'>
-            Header
-          </header>
+          <ResponsiveNav />
           <main className='flex-1 p-4'>
             {children}
           </main>
