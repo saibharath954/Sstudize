@@ -1,32 +1,32 @@
 export const navLinks = [
     {
-        id:1,
-        url:'#',
-        label:'Home'
+        id: 1,
+        url: '#home',
+        label: 'Home'
     },
     {
-        id:2,
-        url:'#',
-        label:'About'
+        id: 2,
+        url: '#about',
+        label: 'About'
     },
     {
-        id:3,
-        url:'#',
-        label:'Services'
+        id: 3,
+        url: '#services',
+        label: 'Services'
     },
     {
-        id:4,
-        url:'#',
-        label:'Reviews'
+        id: 4,
+        url: '#reviews',
+        label: 'Reviews'
     },
     {
-        id:5,
-        url:'#',
-        label:'Pricing'
+        id: 5,
+        url: '#pricing',
+        label: 'Pricing'
     },
     {
-        id:6,
-        url:'#',
-        label:'Contact'
+        id: 6,
+        url: '#contact',
+        label: 'Contact'
     }
 ]

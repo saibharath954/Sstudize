@@ -35,7 +35,23 @@ const Nav = ({openNav}:NavProps) => {
             <div className='hidden lg:flex items-center space-x-10'>
                 {navLinks.map((link) => {
                     return (
-                        <Link href={link.url} key={link.id} className='text-black font-semibold hover:text-blue-800 transition-all duration-200'>
+                        <Link 
+                            href={link.url} 
+                            key={link.id} 
+                            className="text-black font-semibold relative px-2 py-1 overflow-hidden group hover:text-blue-800 transition-all duration-300 ease-out"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                const targetId = link.url.substring(1);
+                                const element = document.getElementById(targetId);
+                                if (element) {
+                                    window.scrollTo({
+                                        top: element.offsetTop - 80, // 80px offset for navbar height
+                                        behavior: 'smooth'
+                                    });
+                                }
+                            }}
+                        >
+                            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-800 group-hover:w-full transition-all duration-300 ease-out"></span>
                             <p>{link.label}</p>
                         </Link>
                     );

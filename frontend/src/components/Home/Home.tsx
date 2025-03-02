@@ -9,11 +9,25 @@ const Home = () => {
   return (
     <div className='overflow-hidden'>
       <div>
-        <HeroSection />
-        <About />
-        <Services />
-        <ClientReview />
-        <Pricing />
+        <section id="home">
+          <HeroSection />
+        </section>
+        
+        <section id="about">
+          <About />
+        </section>
+        
+        <section id="services">
+          <Services />
+        </section>
+        
+        <section id="reviews">
+          <ClientReview />
+        </section>
+        
+        <section id="pricing">
+          <Pricing />
+        </section>
       </div>
     </div>
   )
