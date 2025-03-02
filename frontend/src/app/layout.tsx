@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Rethink_Sans } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import Footer from "@/components/Home/Footer/Footer";
 
 const font=Rethink_Sans({
   weight:['400','500','600','700','800'],
@@ -38,9 +39,7 @@ export default function RootLayout({
           <main className='anitialised flex-1 p-4'>
             {children}
           </main>
-          <footer className='bg-gray-800 text-white p-4 text-2xl'>
-            Footer
-          </footer>
+          <Footer />
         </div>
       </body>
     </html>
