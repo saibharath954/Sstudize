@@ -26,7 +26,7 @@ const ClientReviewCard = ({image, name, rating}: Props) => {
                         <BsStarHalf className='w-5 h-5 text-yellow-400' />
                     </div>
                 </div>
-                <p className='mt-2 text-base text-gray-700 font-medium'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className='mt-2 text-base text-gray-700 font-medium'>Sstudize has been a game-changer for me. The AI-driven roadmap has helped me to focus on my weak areas and improve my overall performance.</p>
             </div>
         </div>
     </div>

@@ -12,13 +12,13 @@ const Pricing = () => {
         </p>
         <div className='w-[80%] mx-auto mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-center'>
             <div>
-                <PriceCard time="6 Month" price="39.99" />
+                <PriceCard time="6 Month" price="29.99" />
             </div>
             <div>
                 <PriceCard time="12 Month" price="19.99" />
             </div>
             <div>
-                <PriceCard time="Liftime" price="9.99" />
+                <PriceCard time="Liftime" price="99.99" />
             </div>
         </div>
     </div>
