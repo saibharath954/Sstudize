@@ -6,7 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className='pt-10 pb-10 bg-gray-100'>
-        <div className='w-[80%] md:w-[80%] items-start mx-auto grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-10'>
+        <div className='w-[80%] md:w-[80%] items-start mx-auto grid grid-cols-2 md:grid-cols-4 sm:grid-cols-4 lg:grid-cols-4 gap-10'>
             <div className='space-y-4'>
                 <h1 className='text-xl font-bold text-gray-800'>Solution</h1>
                 <p className='text-gray-600 font-medium cursor-pointer text-sm hover:text-blue-950'>Enterprice</p>
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
             {/* bottom part */}
         </div>
-        <div className='mt-4 flex items-center justify-between w-[80%] mx-auto'>
+        <div className='mt-8 flex items-center justify-between w-[80%] mx-auto'>
                 <p className='text-gray-600 text-sm'>&copy; 2025 Sstudize. All rights reserved.</p>
                 <div className='flex items-center space-x-6'>
                     <span>Social : </span>
