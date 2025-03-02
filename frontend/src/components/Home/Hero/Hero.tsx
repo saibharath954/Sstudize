@@ -104,6 +104,7 @@ const HeroSection = () => {
             className="relative hidden sm:block"
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl transform transition-transform hover:scale-[1.02] duration-500">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src='/images/hero.png' 
                 alt='Students learning with AI technology' 

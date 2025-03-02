@@ -19,7 +19,7 @@ const MobileNav = ({closeNav, showNav}:MobileNavProps) => {
         ></div>
         {/* Navlinks */}
         <div
-            className={`text-blue-600 ${navOpen} fixed flex flex-col h-screen transform transition-transform duration-300 ease-in-out w-[80%] sm:w-[50%] md:w-[40%] bg-gradient-to-br from-purple-200 to-white space-y-4 p-8 z-[1050] shadow-2xl`}
+            className={`text-white ${navOpen} fixed flex flex-col h-screen transform transition-transform duration-300 ease-in-out w-[80%] sm:w-[50%] md:w-[40%] bg-gradient-to-br from-purple-700 to-blue-300 space-y-4 p-8 z-[1050] shadow-2xl`}
         >
             {navLinks.map((link) => (
                 <Link href={link.url} key={link.id} className="block">
@@ -31,7 +31,7 @@ const MobileNav = ({closeNav, showNav}:MobileNavProps) => {
             {/* close icon */}
             <CgClose
                 onClick={closeNav}
-                className="absolute top-4 right-4 text-blue-600 hover:text-blue-800 transition-colors duration-200 cursor-pointer w-7 h-7"
+                className="absolute top-4 right-4 text-white hover:text-blue-800 transition-colors duration-200 cursor-pointer w-7 h-7"
             />
         </div>
     </div>

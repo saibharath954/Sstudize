@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { motion, useInView, useScroll, useTransform, AnimatePresence } from "framer-motion";
 
 const AboutSection = () => {
@@ -131,6 +131,7 @@ const AboutSection = () => {
                 className="relative rounded-2xl shadow-2xl overflow-hidden"
               >
                 <div className="aspect-w-4 aspect-h-3 h-full">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img 
                     src="/images/studize gpt 2.png" 
                     alt="Students using Sstudize" 
