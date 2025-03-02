@@ -101,7 +101,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, x: 20 }}
             animate={isLoaded ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="relative object-cover w-full h-full h-[500px] md:h-[650px]"
+            className="relative"
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl transform transition-transform hover:scale-[1.02] duration-500">
               {/* eslint-disable-next-line @next/next/no-img-element */}

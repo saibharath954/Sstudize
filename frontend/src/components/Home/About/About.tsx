@@ -95,7 +95,7 @@ const AboutSection = () => {
   return (
     <section 
       ref={sectionRef}
-      className="relative py-20 overflow-hidden bg-gradient-to-b from-white to-gray-50"
+      className="relative py-20 overflow-hidden bg-gray-100"
     >
       {/* Animated background elements */}
       <motion.div 

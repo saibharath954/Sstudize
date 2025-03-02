@@ -62,7 +62,7 @@ const Services: React.FC = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gradient-to-b from-gray-100 to-white overflow-hidden">
+    <section id="services" className="py-20 bg-white overflow-hidden">
       {/* Main content */}
       <div className="relative w-[90%] md:w-[80%] mx-auto h-full">
         <motion.div
