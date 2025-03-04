@@ -5,10 +5,10 @@ import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
 
-const font=Rethink_Sans({
-  weight:['400','500','600','700','800'],
-  subsets:["latin"],
-})
+const font = Rethink_Sans({
+  weight: ["400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+});
 
 //const geistSans = Geist({
 //  variable: "--font-geist-sans",
@@ -32,14 +32,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${font.className} antialiased`}
-      >
-        <div className='flex flex-col h-screen'>
+      <body className={`${font.className} antialiased`}>
+        <div className="flex flex-col h-screen">
           <ResponsiveNav />
-          <main className='anitialised flex-1 p-4'>
-            {children}
-          </main>
+          <main className="anitialised flex-1 p-4">{children}</main>
           <Footer />
           <ScrollToTop />
         </div>
